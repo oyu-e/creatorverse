@@ -76,6 +76,7 @@ const ShowCreators = () => {
                 description={creator.description}
                 imageURL={creator.imageURL}
               />
+
               <button onClick={() => deleteClick(creator.id)}>Delete</button>
             </div>
           ))
