@@ -59,13 +59,11 @@ const ShowCreators = () => {
 
   return (
     <div className="show-creators">
-        <button onClick={addClick}>Add a creator!</button>
-
-        
+      <button onClick={addClick}>Add a creator!</button>
       <h1>All Content Creators</h1>
       <div className="creator-list">
         {creators.length === 0 ? (
-          <p>No content creators found.</p> // Display this message if creators array is empty
+          <p>No content creators found.</p>
         ) : (
           creators.map((creator, index) => (
             <div key={index} className="creator-card">
@@ -76,7 +74,6 @@ const ShowCreators = () => {
                 description={creator.description}
                 imageURL={creator.imageURL}
               />
-
               <button onClick={() => deleteClick(creator.id)}>Delete</button>
             </div>
           ))

@@ -1,8 +1,62 @@
-# React + Vite
+# WEB103 Prework - *👉🏿 Name of App Here*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **👉🏿Oyu Enkhbold**
 
-Currently, two official plugins are available:
+About this web app: **👉🏿 Pre-work assignment to get to know some of my favorite content creators!**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Time spent: **👉🏿 4** hours
+
+## Required Features
+
+The following **required** functionality is completed:
+
+<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
+- [X] **A logical component structure in React is used to create the frontend of the app**
+- [X] **At least five content creators are displayed on the homepage of the app**
+- [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [X] **API calls use the async/await design pattern via Axios or fetch()**
+- [X] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [X] **Each content creator has their own unique URL**
+- [X] **The user can edit a content creator to change their name, url, or description**
+- [X] **The user can delete a content creator**
+- [X] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
+
+The following **optional** features are implemented:
+
+- [ ] Picocss is used to style HTML elements
+- [X] The content creator items are displayed in a creative format, like cards instead of a list
+- [X] An image of each content creator is shown on their content creator card
+
+The following **additional** features are implemented:
+
+* [ ] List anything else that you added to improve the site's functionality!
+- Inserted a "go back" button once the view content creator page is released
+- Automatically inserted known information of the creator when editing the fields
+- Allowed the name to be updated while editing (aesthetically pleasing)
+- Required all fields for creator creation
+- Used colors to increase clarity when going through the site
+
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+👉🏿<img src='creatorverse-gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+GIF created with ...  👉🏿LiceCap
+
+
+## Notes
+
+Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+## License
+
+Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

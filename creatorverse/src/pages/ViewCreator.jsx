@@ -48,11 +48,13 @@ const ViewCreator = () => {
         <h1 className="creator-name">{creator.name}</h1>
         <button className="edit-button" onClick={editClick}>Edit</button>
       </div>
-      {creator.imageURL && <img src={creator.imageURL} alt={creator.name} />}
+      {creator.imageURL && <img src={creator.imageURL} alt={creator.name} className="card-image" />}
       <p>{creator.description}</p>
       <a href={creator.url} target="_blank" rel="noopener noreferrer">
         Visit {creator.name}'s page
       </a>
+      <br/>
+      <a href='/'>Go back</a>
     </div>
   );
 };

@@ -32,7 +32,7 @@ const AddCreator = () => {
       <h1>Add a New Content Creator</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Name</label>
+          <label>Name: </label>
           <input
             type="text"
             value={name}
@@ -40,8 +40,9 @@ const AddCreator = () => {
             required
           />
         </div>
+        <br/>
         <div>
-          <label>URL</label>
+          <label>URL: </label>
           <input
             type="url"
             value={url}
@@ -49,16 +50,18 @@ const AddCreator = () => {
             required
           />
         </div>
+        <br/>
         <div>
-          <label>Description</label>
+          <label>Description: </label>
           <textarea
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             required
           />
         </div>
+        <br/>
         <div>
-          <label>Image URL</label>
+          <label>Image URL: </label>
           <input
             type="url"
             value={imageURL}
@@ -66,6 +69,7 @@ const AddCreator = () => {
             required
           />
         </div>
+        <br/>
         <button type="submit">Add Creator</button>
       </form>
     </div>
