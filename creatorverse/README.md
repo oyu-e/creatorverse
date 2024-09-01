@@ -41,6 +41,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+![Video Walkthrough](creatorverse-gif.gif)
+
 👉🏿<img src='creatorverse/creatorverse-gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
